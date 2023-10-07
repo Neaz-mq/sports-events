@@ -14,7 +14,7 @@ const Event = ({event}) => {
            
             <div className="mt-4 flex">
                 
-                <h2 className="flex"> <AiOutlineDollar className="text-2xl"></AiOutlineDollar> {price}</h2>
+                <h2 className="flex text-lg gap-2 font-semibold"> <AiOutlineDollar className="text-2xl font-bold mt-1"></AiOutlineDollar>  {price}</h2>
             </div>
             <div className="card-actions">
                 <Link to={`/event/${id}`}>

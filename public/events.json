@@ -4,42 +4,48 @@
      "name": "Concerts and Music Festivals",
      "image": "https://i.ibb.co/gjpjXKb/1.jpg",    
      "price": "160k-1900k",
-     "description": "Music concerts and festivals are held everywhere"
+     "description": "Music concerts and festivals are held everywhere",
+     "full_description": "A concert is normally a one day event based around one major band. The start time tends to be around mid to late afternoon and finishes around 11pm, whereas a festival will have music from around midday until at least 11pm with some dance festivals going later."
    },
    {
     "id": 2,   
     "name": "Theater and Performing Arts",
     "image": "https://i.ibb.co/S0dhKjz/2.jpg",    
     "price": "100k-120k",
-    "description": "The performing arts include disciplines like music, dance, and theatre"
+    "description": "The performing arts include disciplines like music, dance, and theatre",
+    "full_description": "Theatre is the branch of performing arts concerned with acting out stories in front of an audience, using a combination of speech, gesture, music, dance, sound, and spectacle. Any one or more of these elements is considered performing arts."
   },
   {
     "id": 3,   
     "name": "Film Screenings and Premieres",
     "image": "https://i.ibb.co/QkC5vTM/3.jpg",    
     "price": "220k-2600k",
-    "description": "We have reviewed the key types of premieres, from highest importance to lowest"
+    "description": "We have reviewed the key types of premieres, from highest importance to lowest",
+    "full_description": "Basically, premieres or screenings are a way to promote an upcoming film before it is released to the mainstream masses. That means there are usually canapes and cocktails for members of the press, cast and crew, their friends and family, and celebrities or influencers."
   },
   {
     "id": 4,   
     "name": "Comedy Shows",
     "image": "https://i.ibb.co/6bmwsgV/pexels-javid-hashimov-18284209.jpg",    
     "price": "90k-110k",
-    "description": "A comedy-drama, is a program that combines humor with more serious dramatic elements"
+    "description": "A comedy-drama, is a program that combines humor with more serious dramatic elements",
+    "full_description": "Comedy, type of drama or other art form the chief object of which, according to modern notions, is to amuse. It is contrasted on the one hand with tragedy and on the other with farce, burlesque, and other forms of humorous amusement."
   },
   {
     "id": 5,   
     "name": "Sports Events",
     "image": "https://i.ibb.co/d7hxD4T/pexels-photo-11734198.jpg",    
     "price": "130k-1500k",
-    "description": "Sports event means a game, match, race or similar competitive event"
+    "description": "Sports event means a game, match, race or similar competitive event",
+    "full_description": "Sports event means a game, match, race or similar competitive event associated with a Governing Body in its entirety or a particular in-game, live occurrence such as, but not limited to, a particular play or score."
   },
   {
     "id": 6,   
     "name": "Magic Shows",
     "image": "https://i.ibb.co/XDcwWcm/6.jpg",    
     "price": "100k-140k",
-    "description": "A theatrical act that a magician performs in front of an audience to amaze and entertain them"
+    "description": "A theatrical act that a magician performs in front of an audience to amaze and entertain them",
+    "full_description": "A magic show is a theatrical act that a magician performs in front of an audience to amaze and entertain them. There are some factors that magicians consider when deciding what type of magic show to offer and perform."
   }
  
  ]
