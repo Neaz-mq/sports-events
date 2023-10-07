@@ -5,7 +5,7 @@ import Event from "../Event/Event";
 const Services = () => {
     const [events, setEvents] = useState([]);
     // this is not the best way to load show all data
-    const [dataLength, setDataLength] = useState(4);
+    const [dataLength, setDataLength] = useState(6);
   
     
     useEffect(() => {
@@ -16,21 +16,14 @@ const Services = () => {
     return (
         <div>
         <div className="text-center">
-          <h2 className="text-5xl p-14 mb-5">Our Services</h2>
+          <h2 className="text-5xl font-bold p-14 mb-5">Our Services</h2>
         </div>
         <div className="grid grid-cols-2 gap-6">
           {events.slice(0, dataLength).map((event) => (
             <Event key={event.id} event={event}></Event>
           ))}
         </div>
-        <div className={dataLength === events.length ? "hidden" : ""}>
-          <button
-            onClick={() => setDataLength(events.length)}
-            className="btn btn-primary"
-          >
-            Show All Jobs
-          </button>
-        </div>
+       
       </div>
     );
 };
