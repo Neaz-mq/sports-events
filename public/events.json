@@ -1,0 +1,45 @@
+[
+    {
+     "id": 1,   
+     "name": "Concerts and Music Festivals",
+     "image": "https://i.ibb.co/gjpjXKb/1.jpg",    
+     "price": "160k-1900k",
+     "description": "Music concerts and festivals are held everywhere"
+   },
+   {
+    "id": 2,   
+    "name": "Theater and Performing Arts",
+    "image": "https://i.ibb.co/S0dhKjz/2.jpg",    
+    "price": "100k-120k",
+    "description": "The performing arts include disciplines like music, dance, and theatre"
+  },
+  {
+    "id": 3,   
+    "name": "Film Screenings and Premieres",
+    "image": "https://i.ibb.co/QkC5vTM/3.jpg",    
+    "price": "220k-2600k",
+    "description": "We have reviewed the key types of premieres, from highest importance to lowest"
+  },
+  {
+    "id": 4,   
+    "name": "Comedy Shows",
+    "image": "https://i.ibb.co/6bmwsgV/pexels-javid-hashimov-18284209.jpg",    
+    "price": "90k-110k",
+    "description": "A comedy-drama, is a program that combines humor with more serious dramatic elements"
+  },
+  {
+    "id": 5,   
+    "name": "Sports Events",
+    "image": "https://i.ibb.co/d7hxD4T/pexels-photo-11734198.jpg",    
+    "price": "130k-1500k",
+    "description": "Sports event means a game, match, race or similar competitive event"
+  },
+  {
+    "id": 6,   
+    "name": "Magic Shows",
+    "image": "https://i.ibb.co/XDcwWcm/6.jpg",    
+    "price": "100k-140k",
+    "description": "A theatrical act that a magician performs in front of an audience to amaze and entertain them"
+  }
+ 
+ ]
