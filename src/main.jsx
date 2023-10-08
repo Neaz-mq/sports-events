@@ -10,6 +10,8 @@ import Root from './components/Root/Root';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import EventDetails from './components/EventDetails/EventDetails';
+import Register from './components/Authentication/Register/Register';
+import Login from './components/Authentication/Login/Login';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -18,20 +20,27 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home> 
+        element: <Home></Home>
       },
       {
         path: '/event/:id',
         element: <EventDetails></EventDetails>,
         loader: () => fetch('/events.json')
-        
-    },
+      },
+      {
+        path: '/register',
+        element: <Register></Register>,
+      },
+      {
+        path: '/login',
+        element: <Login></Login> ,
+      },
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
