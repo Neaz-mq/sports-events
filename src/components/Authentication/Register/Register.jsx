@@ -11,6 +11,7 @@ const Register = () => {
   const { signUp } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [picture, setPicture] = useState("");
   const [error, setError] = useState("");
 
   const handleRegister = () => {
@@ -20,7 +21,7 @@ const Register = () => {
     } else {
       setError("");
      
-      signUp(email, password).then((result) => console.log(result.user));
+      signUp(email, password, picture).then((result) => console.log(result.user));
     }
   };
   return (
@@ -43,6 +44,7 @@ const Register = () => {
                 type="email"
                 placeholder=" Type Email" />
           </div>
+         
           <div className="form-control">
             <label className="label">
               <span className="label-text text-xl font-semibold">Password</span>

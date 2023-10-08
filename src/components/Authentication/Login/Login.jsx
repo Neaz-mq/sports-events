@@ -17,6 +17,7 @@ const Login = () => {
   const from = location.state?.from?.pathname || "/";
 
   const { googleSignIn, user, signIn } = useContext(AuthContext);
+  
   const handleGoogleLogin = () => {
     googleSignIn().then((result) => console.log(result.user));
   };
