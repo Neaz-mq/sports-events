@@ -11,7 +11,7 @@ const Register = () => {
   const { signUp } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [picture, setPicture] = useState("");
+  
   const [error, setError] = useState("");
 
   const handleRegister = () => {
@@ -21,7 +21,7 @@ const Register = () => {
     } else {
       setError("");
      
-      signUp(email, password, picture).then((result) => console.log(result.user));
+      signUp(email, password).then((result) => console.log(result.user));
     }
   };
   return (

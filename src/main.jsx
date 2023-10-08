@@ -14,6 +14,8 @@ import Register from './components/Authentication/Register/Register';
 import Login from './components/Authentication/Login/Login';
 import AuthProvider from './Hook/AuthProvider';
 import PrivateRoute from './utility/PrivateRoute';
+import Experiences from './components/Experiences/Experiences';
+import News from './components/News/News';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -33,6 +35,27 @@ const router = createBrowserRouter([
           
         ),
         loader: () => fetch('/events.json')
+      },
+      {
+        path: '/experiences',
+        element: (
+          <PrivateRoute>
+            <Experiences></Experiences>
+          </PrivateRoute>
+          
+        )
+        
+      },
+
+      {
+        path: '/news',
+        element: (
+          <PrivateRoute>
+            <News></News>
+          </PrivateRoute>
+          
+        )
+        
       },
       {
         path: '/register',
