@@ -16,7 +16,7 @@ const Services = () => {
     return (
         <div>
         <div className="text-center">
-          <h2 className="text-5xl font-bold p-14 mb-5">Our Services</h2>
+          <h2 className="text-5xl font-bold p-14 mb-5" data-aos="zoom-in">Our Services</h2>
         </div>
         <div className="grid grid-cols-2 gap-6">
           {events.slice(0, dataLength).map((event) => (

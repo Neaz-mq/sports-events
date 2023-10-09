@@ -3,7 +3,7 @@
 const Partners = () => {
     return (
         
-        <section className="sponsors text-center">
+        <section className="sponsors text-center" data-aos="fade-up">
               <h3 className="section-title lg:text-5xl text-4xl font-bold mt-32">Partners & Sponsors</h3>
             
                
