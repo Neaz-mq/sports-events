@@ -10,6 +10,7 @@ const EventDetails = () => {
     const event = events.find(event => event.id === idInt);
     console.log(event); 
     return (
+    
         <div className="card w-1/2 glass mx-auto my-10" >
   <figure><img src={event.image} alt=""/></figure>
   <div className="card-body">
@@ -20,6 +21,7 @@ const EventDetails = () => {
     </div>
   </div>
 </div>
+
         
     );
 };

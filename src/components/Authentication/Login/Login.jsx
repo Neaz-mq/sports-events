@@ -2,6 +2,8 @@
 import { useContext } from "react";
 
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { useState } from "react";
 import { AuthContext } from "../../../Hook/AuthProvider";
@@ -20,6 +22,7 @@ const Login = () => {
   
   const handleGoogleLogin = () => {
     googleSignIn().then((result) => console.log(result.user));
+
   };
   const handleLogin = () => {
     if ((email, password)) {
@@ -33,11 +36,32 @@ const Login = () => {
         })
         .catch((err) => {
           console.log(err.message);
-          setError(err);
+          toast.error("Password or email doesn't match", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
         });
     } else {
-      setError("email or password can not be empty ");
+      toast.error("Do not keep empty any field", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+     
     }
+ 
+   
   };
 
 
@@ -81,6 +105,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+    <ToastContainer />
     </div>
       
     );
