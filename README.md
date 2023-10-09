@@ -1,6 +1,6 @@
 # Entertainment Events
 
-Live site link:
+Live site link: https://entertainment-events.netlify.app/
 
 
 Different features and functionalities of my website:
